@@ -4,51 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reachloop - Personal CRM</title>
-    <meta name="description" content="Reachloop is an iOS app that helps you manage your personal and professional relationships in one place.">
+    <meta name="description" content="Reachloop is an iOS app that helps you manage your personal and professional relationships in one place. Smart reminders, relationship insights, and an AI assistant.">
+    <meta name="theme-color" content="#08080f">
+    <link rel="icon" type="image/svg+xml" href="../icon.svg">
+    <link rel="apple-touch-icon" href="../icon-180.png">
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <nav class="lang-switch">
-        <a href="../">TR</a>
-        <a href="./" class="active">EN</a>
-    </nav>
+    <div class="bg-glow"></div>
+    <div class="page">
 
-    <div class="container">
-        <header>
-            <a href="./" class="logo">
-                <div class="logo-icon">R</div>
+        <nav class="nav">
+            <a href="./" class="nav-brand">
+                <img src="../icon-180.png" alt="Reachloop" class="nav-logo">
+                <span>Reachloop</span>
             </a>
-            <h1>Reachloop</h1>
-            <p class="subtitle">Personal CRM &mdash; Manage Your Relationships</p>
-        </header>
-
-        <main>
-            <div class="hero">
-                <p class="hero-description">Manage your personal and professional relationships in one place. Smart reminders, relationship insights, and an AI-powered assistant to strengthen your connections.</p>
+            <div class="nav-right">
+                <div class="lang-switch">
+                    <a href="../">TR</a>
+                    <a href="./" class="active">EN</a>
+                </div>
             </div>
+        </nav>
 
-            <div class="cards">
-                <a href="privacy/" class="card">
-                    <div class="card-icon">🔒</div>
-                    <span class="card-title">Privacy Policy</span>
-                    <span class="card-desc">How we protect your data</span>
+        <section class="hero">
+            <img src="../icon-180.png" alt="Reachloop" class="hero-icon">
+            <h1><span class="gradient-text">Reachloop</span></h1>
+            <p class="hero-subtitle">Manage your personal and professional relationships in one place. Smart reminders, relationship insights, and an AI-powered assistant to strengthen your connections.</p>
+            <div class="hero-actions">
+                <a href="#" class="btn-primary">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    App Store
                 </a>
-                <a href="terms/" class="card">
-                    <div class="card-icon">📄</div>
-                    <span class="card-title">Terms of Use</span>
-                    <span class="card-desc">Service terms &amp; subscription</span>
-                </a>
+                <a href="mailto:ozan.bilgili@hotmail.com" class="btn-secondary">Support</a>
             </div>
+        </section>
 
-            <div class="contact">
-                <p class="contact-label">Support</p>
-                <a href="mailto:ozan.bilgili@hotmail.com">ozan.bilgili@hotmail.com</a>
+        <section class="features">
+            <div class="container-wide">
+                <p class="section-label">Features</p>
+                <h2 class="section-title">Stay on top of every relationship</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon teal">🤖</div>
+                        <h3>AI Assistant</h3>
+                        <p>Strengthen your relationships with interaction analysis and personalized suggestions.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon green">🔔</div>
+                        <h3>Smart Reminders</h3>
+                        <p>Never miss important dates and follow-ups.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon orange">📊</div>
+                        <h3>Relationship Analytics</h3>
+                        <p>Measure and visualize the health of your connections.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon blue">☁️</div>
+                        <h3>iCloud Sync</h3>
+                        <p>Your data syncs securely across all your devices.</p>
+                    </div>
+                </div>
             </div>
-        </main>
+        </section>
 
-        <footer>
+        <section class="legal-section">
+            <div class="container-wide">
+                <div class="legal-cards">
+                    <a href="privacy/" class="legal-card">
+                        <div class="legal-card-icon teal">🔒</div>
+                        <span class="legal-card-title">Privacy Policy</span>
+                        <span class="legal-card-desc">How we protect your data</span>
+                    </a>
+                    <a href="terms/" class="legal-card">
+                        <div class="legal-card-icon blue">📄</div>
+                        <span class="legal-card-title">Terms of Use</span>
+                        <span class="legal-card-desc">Service terms &amp; subscription</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="support">
+            <div class="container-wide">
+                <div class="support-card">
+                    <h3>Support</h3>
+                    <a href="mailto:ozan.bilgili@hotmail.com">ozan.bilgili@hotmail.com</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="privacy/">Privacy Policy</a>
+                <a href="terms/">Terms of Use</a>
+            </div>
             <p>&copy; 2026 Ozan Bilgili. All rights reserved.</p>
         </footer>
+
     </div>
 </body>
 </html>
